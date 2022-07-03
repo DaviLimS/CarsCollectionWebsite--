@@ -1,0 +1,122 @@
+.mclarenSenna {
+    height: 400px;
+    width: 400px;
+    margin-top: 6px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+.i8 {
+    height: 400px;
+    width: 400px;
+    margin-left: 960px;
+    border-radius: 5px;
+    margin-top: -430px;
+}
+
+.bugattiChiron {
+    height: 400px;
+    width: 400px;
+    margin-left: 510px;
+    margin-top: -480px;
+    border-radius: 5px;
+}
+
+.corvette {
+    height: 400px;
+    width: 400px;
+    margin-left: 510px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+.bmwX6Img {
+    width: 570px;
+    height:340px;
+    margin-left: 100px;
+}
+
+.bmwX6Text {
+    color: rgb(0, 0, 0);
+    margin-left: 115px;
+    margin-top: -55px;
+    font-weight: 350;
+    font-size: 30px;
+}
+
+.bmwX6Button {
+    color: black;
+    margin-left: 100px;
+    margin-top: 15px;
+    
+}
+
+.macanImg {
+    width: 600px;
+    height: 340px;
+    margin-left: 700px;
+    margin-top: -500px;
+}
+
+.macanText {
+    font-size: 30px;
+    color: white;
+    margin-left: 710px;
+    margin-top: -140px;
+    font-weight: 370px;
+}
+
+.macanButton {
+    margin-top: 9px;
+    margin-left: 700px;
+}
+
+.lotusEletre {
+    height: 840px;
+    width: 1470px;
+    margin-top: 30px;
+}
+
+.lotusEletreText {
+    font-weight: 200;
+    color: white;
+    font-size: 80px;
+    margin-top: -700px;
+    margin-left: 50px;
+
+    animation-duration: 2s;
+    animation-name: o;
+}
+
+@keyframes o {
+    from {
+        margin-left: -800px;
+        margin-top: none;
+        margin-right: none;
+        margin-bottom: none;
+    }
+
+    to {
+        margin-left: none;
+    }
+}
+
+.lotusEletreButton {
+    margin-top: 0px;
+    margin-left: 40px;
+    animation-duration: 3;
+    animation-name: p;
+}
+
+@keyframes p {
+    from {
+        margin-left: -900px;
+        margin-top: none;
+        margin-right: none;
+        margin-bottom: none;
+    }
+
+    to {
+        margin-left: 40px;
+    }
+}

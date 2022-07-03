@@ -1,0 +1,97 @@
+
+            .navb {
+                height: 80px;
+                width: 1460px;
+                margin-left: -150px;
+                background-color: white;
+            }
+
+            .menuIcon {
+                margin-top: -49px;
+                height: 70px;
+                width: 70px;
+            }
+
+            .searchIcon {
+                height: 30px;
+                width: 30px;
+                margin-top: -200px;
+                margin-right: 500px;
+                margin-left: 25px;
+            }
+
+            #inp {
+                border-radius: 5px;
+                margin-left: 300px;
+            }
+
+            .imgLogo {
+                height: 120px;
+                width: 120px;
+                border-radius: 60px;
+                margin-left: 645px;
+            }
+
+            .bestCar {
+                height: 840px;
+                width: 1470px;
+                margin-top: -200px;
+            }
+
+            .slogan {
+                margin-top: -140px;
+                margin-left: 60px;
+                color: white;
+                text-shadow: #000 4px 2px 3px;
+
+                animation-duration: 3s;
+                animation-name: going;
+            }
+
+            @keyframes going {
+                from {
+                    margin-left: -700px;
+                }
+
+                to {
+                    margin-left: none;
+                }
+            }
+
+            .button1 {
+                margin-left: 50px;                
+                text-shadow: #000 4px 2px 3px;
+
+                animation-duration: 3.5s;
+                animation-name: going2;
+            }
+
+            @keyframes going2 {
+                from {
+                    margin-left: -700px;
+                }
+
+                to {
+                    margin-left: none;
+                }
+            }
+
+            .firstTitle {
+                color: #000;
+                margin-left: 60px;
+                margin-top: 40px;
+            }
+
+            .hr0 {
+                background-color: rgb(133, 133, 133);
+                width: 1300px;
+                margin-left: 0px;
+            }
+
+            .hr1 {
+                background-color: rgb(133, 133, 133);
+                margin-left: 55px;
+                margin-top: 30px;
+                margin-bottom: 25px;
+                width: 1300px;
+            }

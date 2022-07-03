@@ -4,115 +4,14 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/cars.css">
+        <link rel="stylesheet" href="css/control.css">
+
         <title>
             Site
         </title>
     </head>
     <body style="overflow-x: hidden;">
-        <style>
-            .navb {
-                height: 80px;
-                width: 1460px;
-                margin-left: -150px;
-                background-color: white;
-            }
-
-            .menuIcon {
-                margin-top: -49px;
-                height: 70px;
-                width: 70px;
-            }
-
-            .searchIcon {
-                height: 30px;
-                width: 30px;
-                margin-top: -200px;
-                margin-right: 500px;
-                margin-left: 25px;
-            }
-
-            #inp {
-                border-radius: 5px;
-                margin-left: 300px;
-            }
-
-            .imgLogo {
-                height: 120px;
-                width: 120px;
-                border-radius: 60px;
-                margin-left: 645px;
-            }
-
-            .bestCar {
-                height: 840px;
-                width: 1470px;
-                margin-top: -200px;
-            }
-
-            .slogan {
-                margin-top: -140px;
-                margin-left: 60px;
-                color: white;
-                text-shadow: #000 4px 2px 3px;
-            }
-
-            .button1 {
-                margin-left: 50px;                
-                text-shadow: #000 4px 2px 3px;
-            }
-
-            .firstTitle {
-                color: #000;
-                margin-left: 60px;
-                margin-top: 40px;
-            }
-
-            .hr0 {
-                background-color: rgb(133, 133, 133);
-                width: 1300px;
-                margin-left: 0px;
-            }
-
-            .hr1 {
-                background-color: rgb(133, 133, 133);
-                margin-left: 55px;
-                margin-top: 30px;
-                margin-bottom: 25px;
-                width: 1300px;
-            }
-
-            .mclarenSenna {
-                height: 400px;
-                width: 400px;
-                margin-top: 6px;
-                margin-left: 60px;
-                border-radius: 5px;
-            }
-
-            .i8 {
-                height: 400px;
-                width: 400px;
-                margin-left: 960px;
-                border-radius: 5px;
-                margin-top: -430px;
-            }
-
-            .bugattiChiron {
-                height: 400px;
-                width: 400px;
-                margin-left: 510px;
-                margin-top: -480px;
-                border-radius: 5px;
-            }
-
-            .corvette {
-                height: 400px;
-                width: 400px;
-                margin-left: 510px;
-                margin-top: 0px;
-                border-radius: 5px;
-            }
-        </style>
         <script src="js\ErrorMensage.js">
         </script>
         <div class="container">
@@ -172,49 +71,6 @@
 
         <hr class="hr1">
 
-        <style>
-            .bmwX6Img {
-                width: 570px;
-                height:340px;
-                margin-left: 100px;
-            }
-
-            .bmwX6Text {
-                color: rgb(0, 0, 0);
-                margin-left: 115px;
-                margin-top: -55px;
-                font-weight: 350;
-                font-size: 30px;
-            }
-
-            .bmwX6Button {
-                color: black;
-                margin-left: 100px;
-                margin-top: 15px;
-                
-            }
-
-            .macanImg {
-                width: 600px;
-                height: 340px;
-                margin-left: 700px;
-                margin-top: -500px;
-            }
-
-            .macanText {
-                font-size: 30px;
-                color: white;
-                margin-left: 710px;
-                margin-top: -140px;
-                font-weight: 370px;
-            }
-
-            .macanButton {
-                margin-top: 9px;
-                margin-left: 700px;
-            }
-        </style>
-
         <div>
                 <img class="bmwX6Img" src="img\outherProducts\BmwX6.jpg">
                 <a href="https://www.bmw.com.br/pt/index.html">
@@ -241,45 +97,22 @@
                 </h5>
             </a>
         </div>
-
-        <style>
-            bg{
-                background-color: white;
-            }
-
-            .lotusEletre {
-                height: 840px;
-                width: 1470px;
-                margin-top: 100px;
-            }
-
-            .lotusEletreText {
-                font-weight: 200;
-                color: white;
-                font-size: 100px;
-                margin-top: -700px;
-                margin-left: 50px;
-            }
-
-            .lotusEletreButton {
-                margin-top: -500;
-            }
-        </style>
-
-        <div class="bg">
-        </div>
-        <div>
+        
+        <div>            
             <a>
                 <img class="lotusEletre" src="img/outherProducts/LotusEletre.jpg">
-            </a>  
-            <a class="lotusEletreButton btn btn-lg btn-outline-white">            
-                <h3 class="" style="color: white;">
-                    Lotus Website
+            </a>   
+            <a>
+                <h3 class="display-4 lotusEletreText">
+                    Lotus Eletre
                 </h3>
-            </a>          
-            <h3 class="display-4 lotusEletreText">
-                Lotus Eletre
-            </h3>
+
+                <a class="lotusEletreButton btn">
+                    <h3 class=" lotusEletreButtonAnimation display-4" style="color: white;">
+                        More Info
+                    </h3>
+                </a>
+            </a>
         </div>
     </body>
 </html>
