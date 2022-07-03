@@ -1,8 +1,8 @@
 
             .navb {
                 height: 80px;
-                width: 1460px;
-                margin-left: -150px;
+                width: 1560px;
+                margin-left: -200px;
                 background-color: white;
             }
 
@@ -10,14 +10,7 @@
                 margin-top: -49px;
                 height: 70px;
                 width: 70px;
-            }
-
-            .searchIcon {
-                height: 30px;
-                width: 30px;
-                margin-top: -200px;
-                margin-right: 500px;
-                margin-left: 25px;
+                margin-right: 70px;
             }
 
             #inp {
@@ -29,7 +22,7 @@
                 height: 120px;
                 width: 120px;
                 border-radius: 60px;
-                margin-left: 645px;
+                margin-left: 670px;
             }
 
             .bestCar {
