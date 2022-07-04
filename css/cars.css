@@ -78,14 +78,16 @@
     height: 840px;
     width: 1470px;
     margin-top: 120px;
+    margin-bottom: 300px;
 }
 
 .lotusEletreText {
     font-weight: 200;
     color: white;
     font-size: 80px;
-    margin-top: -700px;
+    margin-top: -950px;
     margin-left: 65px;
+    margin-bottom: 300px;
 
     animation-duration: 2s;
     animation-name: o;
@@ -105,8 +107,9 @@
 }
 
 .lotusEletreButton {
-    margin-top: 0px;
+    margin-top: -300px;
     margin-left: 60px;
+    margin-bottom: 300px;
     animation-duration: 3;
     animation-name: p;
 }
